@@ -40,7 +40,7 @@ services:
   result:
     image: dockersamples/examplevotingapp_result:before
     ports:
-      - 5001:80
+      - 5005:80
     networks:
       - backend
     depends_on:
